@@ -26,6 +26,11 @@ def read_root():
     return {"message": "Hello World"}
 
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
+
 @app.get("/db-check")
 def db_check():
     db_url = get_db_url()
