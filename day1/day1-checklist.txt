@@ -1,0 +1,3 @@
+Monday, Feb 16 — Environment Setup (2 hrs)
+Goal: Your machine is ready to build
+TimeTask0:00–0:20Install Python 3.11+, pip, virtualenv. Create project folder ai-backend/0:20–0:50Install FastAPI, Uvicorn, Pydantic — run uvicorn main:app --reload with Hello World0:50–1:20Install PostgreSQL locally + pgAdmin or DBeaver. Create DB aidb1:20–2:00Push project to GitHub. Write a proper README. First commit done. ✅
